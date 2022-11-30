@@ -36,11 +36,11 @@ const Nav = ()=> {
         >
             <Logo onClick={clearSearch}>
                 <img src={logo} alt="logo" />
-                <h1>Ignite</h1>
+                <h1>JP.GAMES</h1>
             </Logo>
             <form className="search">
                 <input type="text" onChange={inputHandler} value={textInput} />
-                <button type="submit" onClick={submitSearch}>Search</button>
+                <button type="submit" onClick={submitSearch}>Pesquisar</button>
             </form>
         </StyledNav>
     )
